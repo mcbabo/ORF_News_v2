@@ -6,7 +6,7 @@ A simple News Wrapper of https://orf.at/ made by mcbabo
 
 Install package with
 
-```python
+```
 pip install orfnews
 ```
 
