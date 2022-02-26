@@ -18,7 +18,7 @@ import orf_news
 import asyncio
 
 # Create orf class
-orf = OrfNews.ORF_News()
+orf = orf_news.ORF_News()
 
 # Call getTopicNews
 newest_post = asyncio.run(orf.getTopicNews("inland"))
@@ -34,7 +34,7 @@ import orf_news
 import asyncio
 
 # Create orf class
-orf = OrfNews.ORF_News()
+orf = orf_news.ORF_News()
 
 # Call getTopics
 topics = asyncio.run(orf.getTopics())
