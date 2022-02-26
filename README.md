@@ -14,7 +14,7 @@ pip install orfnews
 Create your main.py file
 
 ```python
-import OrfNews
+import orf_news
 import asyncio
 
 # Create orf class
@@ -30,7 +30,7 @@ print(newest_post)
 ### Get all available topics ###
 
 ```python
-import OrfNews
+import orf_news
 import asyncio
 
 # Create orf class
