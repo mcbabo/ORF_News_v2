@@ -21,9 +21,26 @@ import asyncio
 orf = orf_news.ORF_News()
 
 # Call getTopicNews
-newest_post = asyncio.run(orf.getTopicNews("inland"))
+newest_post = asyncio.run(orf.getTopPost("inland"))
 
 # Print out dictionary
+print(newest_post)
+```
+
+### Get top news ###
+Create your main.py file
+
+```python
+import orf_news
+import asyncio
+
+# Create orf class
+orf = orf_news.ORF_News()
+
+# Call getTopicNews
+newest_post = asyncio.run(orf.getTopPosts("inland", amount : int))
+
+# Print out list with dictionaries
 print(newest_post)
 ```
 

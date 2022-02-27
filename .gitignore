@@ -1,0 +1,4 @@
+#ignore these files
+test.py
+testing_api.json
+__pycache__
